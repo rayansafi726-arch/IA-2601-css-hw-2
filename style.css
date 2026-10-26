@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000vh;
+    background-color: #f2f4f8;
+}
+
+.card {
+    width: 250px;
+    background-color: #fff;
+    padding: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #6e2594;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+.img-box {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.img-box img {
+    width: 150px;
+    height: 150px;
+}
+
+.product-title {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.product-title a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.features {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.features li {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.price {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.current-price {
+    font-size: 16px;
+    color: red;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #666;
+    text-decoration: overline;
+}
+
+.buy-btn {
+    width: 100%;
+    background-color: #f0f2f9;
+    color: #3749bb;
+    border: 1px solid #3749bb;
+    padding: 8px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.compare {
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.compare img {
+    width: 10px;
+    height: 10px;
+}
+
+.compare:hover {
+    background-color: #f0f2f9;
+    color: #3749bb;
+}
